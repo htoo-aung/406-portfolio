@@ -8,6 +8,10 @@
     font-family: "Roboto";
 }
 
+body {
+    margin: 0;
+}
+
 ul {
     padding: 0;
 }
