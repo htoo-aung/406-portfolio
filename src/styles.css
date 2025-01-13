@@ -61,9 +61,10 @@ li {
 
 .navbar-right {
     display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width: 13%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    width: 16%;
 }
 
 /*  Header/Hero  */
