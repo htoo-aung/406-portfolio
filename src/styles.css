@@ -5,6 +5,7 @@
     --background-color: #F5F5F5;
     --text-color: #333333;
     --optional-accent: #E63946;
+    font-family: "Roboto";
 }
 
 ul {
@@ -55,8 +56,10 @@ li {
 
 .section.header {
     display: flex;
+    align-items: center;
     background-color: var(--primary-color);
     color: white;
+    height: 40rem;
 }
 
 .header-left {
