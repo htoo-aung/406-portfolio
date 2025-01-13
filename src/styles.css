@@ -85,11 +85,13 @@ li {
 .header-image {
     display: flex;
     align-items: center;
+    border: black solid 4px;
+    background-color: white;
 }
 
 .header-image img {
     width: 20rem;
-    filter: brightness(0) invert(1);
+    /* filter: brightness(0) invert(1); */
 }
 
 /* Project section */
