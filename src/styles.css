@@ -26,11 +26,20 @@ li {
     margin-right: 10%;
 }
 
+.section img {
+    width: 2rem;
+}
+
 /* Individual sections */
 /* Navbar */
 
 .section.navbar {
     background-color: var(--primary-color);
+    font-size: 1.2rem;
+}
+
+.section.navbar img {
+    filter: brightness(0) invert(1);
 }
 
 .section.navbar > .content {
@@ -41,15 +50,16 @@ li {
 
 .navbar-left {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
+    width: 12%;
 }
 
 .navbar-right {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 10%;
+    width: 13%;
 }
 
 /*  Header/Hero  */
@@ -60,19 +70,26 @@ li {
     background-color: var(--primary-color);
     color: white;
     height: 40rem;
+    font-size: 1.2rem;
+}
+
+.header-content {
+    display: flex;
+    justify-content: space-between;
 }
 
 .header-left {
     width: 40%;
 }
 
-.section img {
-    width: 2rem;
+.header-image {
+    display: flex;
+    align-items: center;
 }
 
-.section.footer {
-    height: 4rem;
-    background-color: var(--primary-color);
+.header-image img {
+    width: 20rem;
+    filter: brightness(0) invert(1);
 }
 
 /* Project section */
@@ -100,8 +117,8 @@ li {
 .project img {
     margin-top: 64px;
     margin-bottom: 32px;
-    width: 40%;
-    height: 333px;
+    width: 50%;
+    height: auto;
     border: var(--secondary-color) solid 2px;
 }
 
@@ -117,4 +134,11 @@ li {
     width: 40%;
     margin-top: 4rem;
     margin-bottom: 2rem;
+}
+
+/* Footer */
+
+.section.footer {
+    height: 5rem;
+    background-color: var(--primary-color);
 }
